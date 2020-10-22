@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+}
+h1 {
+  padding: 20px;
+}
+
+body {
+  background: linear-gradient(to right, #4b6cb7, #182848);
+  font-family: "Staatliches", cursive;
+}
+header {
+  background-color: cornsilk;
+  padding: 10px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.hoveddel {
+  color: white;
+}
+.tabell {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.tabell li {
+  list-style: none;
+}
+.box {
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  margin: auto;
+  text-align: center;
+  width: 60%;
+  margin-top: 30px;
+}
+.person-image {
+  width: 190px;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+.person {
+  display: flex;
+}
+.person.person-right {
+  justify-content: flex-end;
+  text-align: right !important;
+}
+.person-text {
+  padding-top: 40px;
+  padding-left: 15px;
+  text-align: left;
+  max-width: 200px;
+}
+
+@media screen and (max-width: 666px) {
+  .box {
+    width: 80%;
+  }
+}
