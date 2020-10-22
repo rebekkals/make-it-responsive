@@ -3,6 +3,7 @@
 }
 h1 {
   padding: 20px;
+  
 }
 
 body {
@@ -10,8 +11,9 @@ body {
   font-family: "Staatliches", cursive;
 }
 header {
-  background-color: cornsilk;
-  padding: 10px;
+  background-color: #ebebeb;
+  padding-top: 20px;
+  padding-bottom: 20px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
@@ -29,14 +31,23 @@ header {
 .tabell li {
   list-style: none;
 }
+.tabell a{
+  text-decoration: none;
+  color: #303030;
+  padding: 20px;
+}
+.tabell a:hover{
+  border-bottom: solid 2px #303030;
+}
 .box {
   padding: 30px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background: linear-gradient(to right, #e0e0e0, #fcfcfc);
   color: black;
   margin: auto;
   text-align: center;
   width: 60%;
   margin-top: 30px;
+  border-radius: 5px;
 }
 .person-image {
   width: 190px;
@@ -58,6 +69,16 @@ header {
   text-align: left;
   max-width: 200px;
 }
+footer{
+  height: 15vh;
+  background: linear-gradient(to right, #e0e0e0, #fcfcfc);
+  margin-top: 4vh;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  line-height: 15vh;
+  display: flex;
+  justify-content: center;
+}
+
 
 @media screen and (max-width: 666px) {
   .box {
