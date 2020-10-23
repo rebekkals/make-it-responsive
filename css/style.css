@@ -71,7 +71,11 @@ header {
   max-width: 200px;
 }
 
-.i
+.inovation-image{
+  width: 35vw;
+  height:auto;
+
+}
 
 footer{
   height: 15vh;
