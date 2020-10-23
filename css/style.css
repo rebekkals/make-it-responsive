@@ -59,11 +59,11 @@ header {
 }
 .topp {
   width: auto;
-  background: -webkit-linear-gradient(to right, #fdfdfd86, #006eff96);
-  background: linear-gradient(to right, #ffffff91, #0084ff86);
+  background: -webkit-linear-gradient(to right, #ffffff, #006eff96);
+  background: linear-gradient(to right, #ffffff, #0084ff86);
 }
 h5 img {
-  padding-left: 38vw;
+  padding-left: 35vw;
   width: 80px;
   height: 80px;
 }
