@@ -12,12 +12,12 @@ body {
 }
 header {
   background-color: #ebebeb;
-  padding-top: 20px;
-  padding-bottom: 20px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
   display: flex;
   align-items: center;
   width: 100%;
+  position: sticky;
+  top: 0;
 }
 
 .hoveddel {
@@ -48,6 +48,7 @@ header {
   width: 60%;
   margin-top: 30px;
   border-radius: 5px;
+  box-shadow: 3px 5px #c2c2c2;
 }
 .person-image {
   width: 190px;
