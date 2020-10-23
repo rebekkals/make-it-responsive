@@ -70,7 +70,18 @@ header {
   text-align: left;
   max-width: 200px;
 }
+<<<<<<< HEAD
 footer {
+=======
+
+.inovation-image{
+  width: 35vw;
+  height:auto;
+
+}
+
+footer{
+>>>>>>> 5ca5de17d22ea230c5509292610a5248f5185a6d
   height: 15vh;
   background: linear-gradient(to right, #e0e0e0, #fcfcfc);
   margin-top: 4vh;
