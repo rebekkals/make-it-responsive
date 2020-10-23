@@ -3,7 +3,6 @@
 }
 h1 {
   padding: 20px;
-  
 }
 
 body {
@@ -31,12 +30,12 @@ header {
 .tabell li {
   list-style: none;
 }
-.tabell a{
+.tabell a {
   text-decoration: none;
   color: #303030;
   padding: 20px;
 }
-.tabell a:hover{
+.tabell a:hover {
   border-bottom: solid 2px #303030;
 }
 .box {
@@ -64,13 +63,14 @@ header {
   justify-content: flex-end;
   text-align: right !important;
 }
+
 .person-text {
   padding-top: 40px;
   padding-left: 15px;
   text-align: left;
   max-width: 200px;
 }
-footer{
+footer {
   height: 15vh;
   background: linear-gradient(to right, #e0e0e0, #fcfcfc);
   margin-top: 4vh;
@@ -79,7 +79,6 @@ footer{
   display: flex;
   justify-content: center;
 }
-
 
 @media screen and (max-width: 666px) {
   .box {
