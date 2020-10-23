@@ -1,6 +1,9 @@
 * {
   margin: 0;
 }
+html{
+  scroll-behavior: smooth;
+}
 h1 img {
   padding-left: 30px;
   width: 40px;
