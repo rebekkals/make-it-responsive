@@ -77,6 +77,10 @@ header {
   text-align: left;
   max-width: 200px;
 }
+.person-text a {
+  color: #000;
+  text-decoration: none;
+}
 
 .inovation-image {
   width: 35vw;
@@ -92,23 +96,23 @@ footer {
   display: flex;
   justify-content: center;
 }
-#form p{
+#form p {
   font-size: 20px;
 }
-input{
+input {
   width: 50%;
   height: 5vh;
   margin-top: 2vh;
   text-align: center;
 }
-select{
+select {
   width: 50%;
   height: 5vh;
   text-align: center;
   display: flex;
   justify-content: center;
 }
-option{
+option {
   text-align: center;
 }
 
