@@ -57,6 +57,25 @@ header {
   border-radius: 5px;
   box-shadow: 3px 5px #c2c2c2;
 }
+.topp {
+  width: auto;
+  background: -webkit-linear-gradient(to right, #fdfdfd86, #006eff96);
+  background: linear-gradient(to right, #ffffff91, #0084ff86);
+}
+h5 img {
+  padding-left: 38vw;
+  width: 80px;
+  height: 80px;
+}
+h5 {
+  color: #000;
+  text-shadow: -1px 0 rgb(47, 0, 255), 0 1px rgb(47, 0, 255),
+    1px 0 rgb(55, 0, 255), 0 -1px;
+  font-size: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0 10px 30px;
+}
 .person-image {
   width: 250px;
   height: 250px;
