@@ -15,6 +15,25 @@ h1 {
   padding: 10px 0 10px 30px;
 }
 
+
+
+.topping{
+
+    
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #424242, #2b2b2b);
+    padding-bottom: 0vh;
+    margin: 0%;
+    
+
+}
+.topping img{
+    height: 34vh;
+    width: auto;
+}
+
 body {
   background: linear-gradient(to right, #4b6cb7, #182848);
   font-family: "Staatliches", cursive;
