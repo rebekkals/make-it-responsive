@@ -46,6 +46,7 @@ header {
   border-bottom: solid 2px #303030;
 }
 .box {
+  margin-top: 100px;
   padding: 30px;
   background: linear-gradient(to right, #e0e0e0, #fcfcfc);
   color: black;
@@ -57,8 +58,8 @@ header {
   box-shadow: 3px 5px #c2c2c2;
 }
 .person-image {
-  width: 190px;
-  height: 190px;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
@@ -70,7 +71,6 @@ header {
   justify-content: flex-end;
   text-align: right !important;
 }
-
 .person-text {
   padding-top: 40px;
   padding-left: 15px;
