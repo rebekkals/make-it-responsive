@@ -15,23 +15,17 @@ h1 {
   padding: 10px 0 10px 30px;
 }
 
-
-
-.topping{
-
-    
-    height: 15vh;
-    display: flex;
-    justify-content: center;
-    background: linear-gradient(to right, #424242, #2b2b2b);
-    padding-bottom: 0vh;
-    margin: 0%;
-    
-
+.topping {
+  height: 34vh;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to right, #424242, #2b2b2b);
+  padding-bottom: 1vh;
+  margin: 0%;
 }
-.topping img{
-    height: 34vh;
-    width: auto;
+.topping img {
+  height: 34vh;
+  width: auto;
 }
 
 body {
@@ -80,24 +74,40 @@ header {
   box-shadow: 3px 5px #c2c2c2;
 }
 .topp {
+  display: flex;
   width: auto;
   background: -webkit-linear-gradient(to right, #09306396, #ffffff, #09306396);
   background: linear-gradient(to right, #0084ff1e, #ffffff, #0084ff1f);
 }
+
+h5 img {
+  padding-left: 35vw;
+  width: 80px;
+  height: 80px;
+}
+h5 {
+  color: #000;
+  text-shadow: -1px 0 rgb(47, 0, 255), 0 1px rgb(47, 0, 255),
+    1px 0 rgb(55, 0, 255), 0 -1px;
+  font-size: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0 10px 30px;
+}
 /* Brukt på freaky friday av Tobias Fremming: */
 label {
   color: rgb(255, 250, 225);
-  margin-left: 30px;
-  margin-left: 10px;
   margin-right: 30vw;
+  margin-left: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
   font-size: 30px;
   line-height: 20px;
   cursor: pointer;
   float: left;
-  margin-top: 7vw;
   size: 7vw;
-  margin-top: 3vh;
 }
+
 .menu {
   margin-top: 5vw;
   text-align: center;
@@ -117,20 +127,7 @@ label {
   display: block;
 }
 /* //brukt på freaky friday av Tobias Fremming */
-h5 img {
-  padding-left: 35vw;
-  width: 80px;
-  height: 80px;
-}
-h5 {
-  color: #000;
-  text-shadow: -1px 0 rgb(47, 0, 255), 0 1px rgb(47, 0, 255),
-    1px 0 rgb(55, 0, 255), 0 -1px;
-  font-size: 70px;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 10px 0 10px 30px;
-}
+
 .person-image {
   width: 250px;
   height: 250px;
