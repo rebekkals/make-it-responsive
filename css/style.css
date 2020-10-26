@@ -4,6 +4,21 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  background: linear-gradient(to right, #4b6cb7, #182848);
+  font-family: "Staatliches", cursive;
+  width: auto;
+}
+/* navbar ---------------------------------------------------- */
+header {
+  background-color: #ebebeb;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
 h1 img {
   padding-left: 30px;
   width: 40px;
@@ -14,7 +29,7 @@ h1 {
   flex-wrap: wrap;
   padding: 10px 0 10px 30px;
 }
-
+/* bilder på toppen ---------------------------------------- */
 .topping {
   width: 100%;
   display: flex;
@@ -31,25 +46,6 @@ h1 {
   width: auto;
 }
 
-body {
-  background: linear-gradient(to right, #4b6cb7, #182848);
-  font-family: "Staatliches", cursive;
-  width: auto;
-}
-header {
-  background-color: #ebebeb;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
-  display: flex;
-  align-items: center;
-  width: 100%;
-  position: sticky;
-  top: 0;
-}
-
-.hoveddel {
-  color: white;
-  width: auto;
-}
 .tabell {
   display: flex;
   justify-content: space-between;
@@ -66,19 +62,13 @@ header {
 .tabell a:hover {
   border-bottom: solid 2px #303030;
 }
-.box {
-  margin-top: 100px;
-  padding: 30px;
-  background: linear-gradient(to right, #e0e0e0, #fcfcfc);
-  color: black;
-  margin: auto;
-  text-align: center;
-  width: 60%;
-  margin-top: 30px;
-  border-radius: 5px;
-  box-shadow: 3px 5px #c2c2c2;
+
+.hoveddel {
+  color: white;
+  width: auto;
 }
 
+/* logobar / navbar mobil ------------------------------------ */
 .topp {
   width: 100%;
   margin-left: auto;
@@ -91,9 +81,8 @@ header {
   height: 10vw;
   width: auto;
 }
-
-/* Brukt på freaky friday av Tobias Fremming: */
 /* Burger menu  */
+/* Brukt på freaky friday av Tobias Fremming: */
 label {
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
@@ -128,6 +117,21 @@ label {
 
 /* //brukt på freaky friday av Tobias Fremming */
 
+/* Description ---------------------------------------------- */
+.box {
+  margin-top: 100px;
+  padding: 30px;
+  background: linear-gradient(to right, #e0e0e0, #fcfcfc);
+  color: black;
+  margin: auto;
+  text-align: center;
+  width: 60%;
+  margin-top: 30px;
+  border-radius: 5px;
+  box-shadow: 3px 5px #c2c2c2;
+}
+
+/* Staff -------------------------------------------------------------- */
 .person-image {
   width: 250px;
   height: 250px;
@@ -153,20 +157,32 @@ label {
   text-decoration: none;
 }
 
+/* Schedule -------------------------------------------------*/
 .inovation-image {
   width: 35vw;
   height: auto;
 }
 
-footer {
-  height: 15vh;
-  background: linear-gradient(to right, #e0e0e0, #fcfcfc);
-  margin-top: 4vh;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
-  line-height: 15vh;
+.box2 {
+  width: 80%;
   display: flex;
-  justify-content: center;
+  margin-top: 50px;
+  margin-left: 10%;
 }
+.box3 {
+  width: 80%;
+  display: flex;
+  margin-left: 10%;
+}
+.innovation-camp1 {
+  margin-top: 20px;
+  float: left;
+}
+.innovation-camp2 {
+  float: right;
+}
+
+/* form -------------------------------------------------------------------------- */
 #form p {
   font-size: 20px;
 }
@@ -185,6 +201,16 @@ select {
 }
 option {
   text-align: center;
+}
+/* footer --------------------------------------------------------------- */
+footer {
+  height: 15vh;
+  background: linear-gradient(to right, #e0e0e0, #fcfcfc);
+  margin-top: 4vh;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  line-height: 15vh;
+  display: flex;
+  justify-content: center;
 }
 
 @media (orientation: portrait), (max-width: 660px) {
