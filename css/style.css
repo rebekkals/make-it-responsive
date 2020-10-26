@@ -244,6 +244,7 @@ footer {
   }
   .topping {
     margin-top: 20vw;
+    background: linear-gradient(to right, #ffcd8b, #ffbe69);
   }
   .topping img {
     height: auto;
