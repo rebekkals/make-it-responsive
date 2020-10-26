@@ -119,7 +119,7 @@ label {
 
 /* Description ---------------------------------------------- */
 .box {
-  margin-top: 100px;
+  
   padding: 30px;
   background: linear-gradient(to right, #e0e0e0, #fcfcfc);
   color: black;
@@ -168,12 +168,12 @@ label {
   display: flex;
   margin-top: 50px;
   margin-left: 10%;
+  background: linear-gradient(to right, #e0e0e0, #fcfcfc);
+  color: black;
+  border-radius: 5px;
+  box-shadow: 3px 5px #c2c2c2;
 }
-.box3 {
-  width: 80%;
-  display: flex;
-  margin-left: 10%;
-}
+
 .innovation-camp1 {
   margin-top: 20px;
   float: left;
@@ -186,18 +186,28 @@ label {
 #form p {
   font-size: 20px;
 }
+#form h1{
+  text-align: center;
+  display: inline-block;
+  padding: 0;
+}
 input {
   width: 50%;
   height: 5vh;
   margin-top: 2vh;
   text-align: center;
 }
+.formselect{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
 select {
   width: 50%;
   height: 5vh;
   text-align: center;
-  display: flex;
-  justify-content: center;
+  
 }
 option {
   text-align: center;
