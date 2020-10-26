@@ -158,11 +158,15 @@ label {
 }
 
 /* Schedule -------------------------------------------------*/
+.schedule {
+  margin-left: 45%;
+  font-size: 40px;
+}
+
 .inovation-image {
   width: 35vw;
   height: auto;
 }
-
 .box2 {
   width: 80%;
   display: flex;
@@ -180,6 +184,7 @@ label {
 }
 .innovation-camp2 {
   float: right;
+  padding-left: 20px;
 }
 
 /* form -------------------------------------------------------------------------- */
