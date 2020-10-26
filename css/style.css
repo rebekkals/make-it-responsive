@@ -73,41 +73,33 @@ header {
   border-radius: 5px;
   box-shadow: 3px 5px #c2c2c2;
 }
+
 .topp {
-  display: flex;
-  width: auto;
-  background: -webkit-linear-gradient(to right, #09306396, #ffffff, #09306396);
-  background: linear-gradient(to right, #0084ff1e, #ffffff, #0084ff1f);
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background: -webkit-linear-gradient(to right, #0400ff69, #ffffff, #0400ff7c);
+  background: linear-gradient(to right, #0400ff3f, #ffffff, #0400ff48);
+}
+.topp img {
+  margin-left: 30vw;
+  height: 10vw;
+  width: 35vw;
 }
 
-h5 img {
-  padding-left: 35vw;
-  width: 80px;
-  height: 80px;
-}
-h5 {
-  color: #000;
-  text-shadow: -1px 0 rgb(47, 0, 255), 0 1px rgb(47, 0, 255),
-    1px 0 rgb(55, 0, 255), 0 -1px;
-  font-size: 70px;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 10px 0 10px 30px;
-}
 /* Brukt på freaky friday av Tobias Fremming: */
+/* Burger menu  */
 label {
+  margin-bottom: 10px;
   color: rgb(255, 250, 225);
-  margin-right: 30vw;
   margin-left: 30px;
-  margin-top: auto;
-  margin-bottom: auto;
   font-size: 30px;
   line-height: 20px;
   cursor: pointer;
   float: left;
+  margin-top: 5vw;
   size: 7vw;
 }
-
 .menu {
   margin-top: 5vw;
   text-align: center;
@@ -126,6 +118,7 @@ label {
 #toggle:checked + .menu {
   display: block;
 }
+
 /* //brukt på freaky friday av Tobias Fremming */
 
 .person-image {
@@ -187,10 +180,13 @@ option {
   text-align: center;
 }
 
-@media screen and (max-width: 666px) {
+@media (max-width: 666px) {
   .box {
     width: 80%;
   }
+}
+
+@media (orientation: portrait), (max-width: 660px) {
   .nav-bar {
     display: none;
   }
