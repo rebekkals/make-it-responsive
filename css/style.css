@@ -260,4 +260,10 @@ footer {
   h2 {
     font-size: 40px;
   }
+  .innovation-camp1 {
+    float: none;
+  }
+  .innovation-camp2 {
+    float: none;
+  } /*her skjedde det ingenting. bildene må stå hver for seg på mobilversjon*/
 }
