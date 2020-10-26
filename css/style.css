@@ -1,4 +1,4 @@
-* {
+s* {
   margin: 0;
 }
 html {
@@ -16,21 +16,25 @@ h1 {
 }
 
 .topping {
-  height: 34vh;
+  width: 98vw;
   display: flex;
   justify-content: center;
   background: linear-gradient(to right, #424242, #2b2b2b);
-  padding-bottom: 1vh;
   margin: 0%;
 }
-.topping img {
-  height: 34vh;
-  width: auto;
+.img1 {
+  height: 21vw;
+  width: 26vw;
+}
+.img2 {
+  height: 21vw;
+  width: 18vw;
 }
 
 body {
   background: linear-gradient(to right, #4b6cb7, #182848);
   font-family: "Staatliches", cursive;
+  width: auto;
 }
 header {
   background-color: #ebebeb;
@@ -44,6 +48,7 @@ header {
 
 .hoveddel {
   color: white;
+  width: auto;
 }
 .tabell {
   display: flex;
@@ -78,11 +83,11 @@ header {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background: -webkit-linear-gradient(to right, #0400ff69, #ffffff, #0400ff7c);
+  background: -webkit-linear-gradient(to right, #030080a4, #ffffff, #0400ff7c);
   background: linear-gradient(to right, #0400ff3f, #ffffff, #0400ff48);
 }
 .topp img {
-  margin-left: 30vw;
+  margin-left: 25vw;
   height: 10vw;
   width: 35vw;
 }
@@ -90,27 +95,29 @@ header {
 /* Brukt på freaky friday av Tobias Fremming: */
 /* Burger menu  */
 label {
-  margin-bottom: 10px;
-  color: rgb(255, 250, 225);
-  margin-left: 30px;
-  font-size: 30px;
-  line-height: 20px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  line-height: 60px;
   cursor: pointer;
   float: left;
-  margin-top: 5vw;
-  size: 7vw;
+  margin-bottom: 10px;
+  margin-top: 4vw;
+  margin-left: 30px;
+  display: none;
 }
 .menu {
+  font-size: 40px;
   margin-top: 5vw;
   text-align: center;
   display: none;
 }
 .menu a {
+  line-height: 100px;
   text-decoration: none;
   color: rgb(0, 0, 0);
-  line-height: 30px;
   display: block;
-  border-bottom: 1px solid mistyrose;
+  border-bottom: 1px solid white;
 }
 #toggle {
   display: none;
@@ -180,17 +187,44 @@ option {
   text-align: center;
 }
 
-@media (max-width: 666px) {
+@media (orientation: portrait), (max-width: 660px) {
+  /* .box {
+    background: linear-gradient(to right, #ff0000, #000000);
+  } */
   .box {
     width: 80%;
+    border-radius: 20px;
   }
-}
-
-@media (orientation: portrait), (max-width: 660px) {
-  .nav-bar {
+  header {
     display: none;
   }
   .topp {
     position: fixed;
+    top: 0;
+    border-bottom: 5px solid rgb(0, 0, 0);
+  }
+  .topp img {
+    margin-left: 15vw;
+    height: 16vw;
+    width: 50vw;
+  }
+  label {
+    display: block;
+  }
+  .topping {
+    margin-top: 20vw;
+  }
+  .topping img {
+    height: 25vw;
+    width: 30vw;
+  }
+  .img2 {
+    display: none;
+  }
+  p {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 40px;
   }
 }
