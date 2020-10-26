@@ -191,12 +191,8 @@ option {
   .box {
     width: 80%;
   }
-}
-
-@media (max-width: 600px) {
   .nav-bar {
     display: none;
-    background-color: red;
   }
   .topp {
     position: fixed;
