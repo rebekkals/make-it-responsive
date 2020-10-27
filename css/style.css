@@ -158,15 +158,20 @@ label {
 }
 
 /* Schedule -------------------------------------------------*/
+.schedule {
+  margin-top: 40px;
+  margin-left: 45%;
+  font-size: 40px;
+}
+
 .inovation-image {
   width: 35vw;
   height: auto;
 }
-
 .box2 {
   width: 80%;
   display: flex;
-  margin-top: 50px;
+  margin-top: 40px;
   margin-left: 10%;
   background: linear-gradient(to right, #e0e0e0, #fcfcfc);
   color: black;
@@ -174,12 +179,19 @@ label {
   box-shadow: 3px 5px #c2c2c2;
 }
 
+.box3 {
+  width: 80%;
+  display: flex;
+  margin-left: 10%;
+  margin-top: 30px;
+}
 .innovation-camp1 {
   margin-top: 20px;
   float: left;
 }
 .innovation-camp2 {
   float: right;
+  padding-left: 20px;
 }
 
 /* form -------------------------------------------------------------------------- */
