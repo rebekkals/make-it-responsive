@@ -219,25 +219,26 @@ label {
   display: inline-block;
   padding: 0;
 }
-input {
+.box input {
   width: 50%;
   height: 5vh;
   margin-top: 2vh;
   text-align: center;
 }
+
 .formselect{
   width: 100%;
   display: flex;
   justify-content: center;
   
 }
-select {
+.box select {
   width: 50%;
   height: 5vh;
   text-align: center;
   
 }
-option {
+.box option {
   text-align: center;
 }
 /* footer --------------------------------------------------------------- */
@@ -245,11 +246,23 @@ footer {
   height: 15vh;
   background: linear-gradient(to right, #e0e0e0, #fcfcfc);
   margin-top: 4vh;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
-  line-height: 15vh;
   display: flex;
-  justify-content: center;
+  
+  position: relative;
 }
+footer input{
+  width: 50%;
+}
+.newsletter{
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+}
+.contactinfo{
+  width: 50%;
+  display: inline-block;
+}
+
 
 /* phone-view ------------------------------------------ */
 @media (orientation: portrait), (max-width: 660px) {
