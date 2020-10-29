@@ -163,7 +163,6 @@ label {
   margin-left: 45%;
   font-size: 40px;
 }
-
 .inovation-image {
   width: 35vw;
   height: auto;
@@ -171,12 +170,10 @@ label {
   margin-right: 2vw;
   border-radius: 50px;
   margin-top: 5vh;
-  transition: opacity 1s;
   z-index: -10;
 }
 .inovation-image:hover {
   opacity: 0.6;
-  z-index: -10;
 }
 .box2 {
   width: 80%;
@@ -224,8 +221,7 @@ label {
   margin-top: 2vh;
   text-align: center;
 }
-
-.formselect{
+.formselect {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -244,22 +240,21 @@ footer {
   background: linear-gradient(to right, #e0e0e0, #fcfcfc);
   margin-top: 4vh;
   display: flex;
-  
+
   position: relative;
 }
-footer input{
+footer input {
   width: 50%;
 }
-.newsletter{
+.newsletter {
   width: 50%;
   display: inline-block;
   text-align: center;
 }
-.contactinfo{
+.contactinfo {
   width: 50%;
   display: inline-block;
 }
-
 
 /* phone-view ------------------------------------------ */
 @media (orientation: portrait), (max-width: 660px) {
