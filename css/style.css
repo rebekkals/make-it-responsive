@@ -120,7 +120,6 @@ label {
 
 /* Description ---------------------------------------------- */
 .box {
-  
   padding: 30px;
   background: linear-gradient(to right, #e0e0e0, #fcfcfc);
   color: black;
@@ -175,8 +174,8 @@ label {
   transition: opacity 1s;
   z-index: -10;
 }
-.inovation-image:hover{
-  opacity: .6;
+.inovation-image:hover {
+  opacity: 0.6;
   z-index: -10;
 }
 .box2 {
@@ -191,7 +190,7 @@ label {
   justify-content: center;
   text-align: center;
 }
-.box2 h2{
+.box2 h2 {
   margin: 3vh;
 }
 
@@ -214,7 +213,7 @@ label {
 #form p {
   font-size: 20px;
 }
-#form h1{
+#form h1 {
   text-align: center;
   display: inline-block;
   padding: 0;
@@ -225,17 +224,15 @@ input {
   margin-top: 2vh;
   text-align: center;
 }
-.formselect{
+.formselect {
   width: 100%;
   display: flex;
   justify-content: center;
-  
 }
 select {
   width: 50%;
   height: 5vh;
   text-align: center;
-  
 }
 option {
   text-align: center;
@@ -290,10 +287,19 @@ footer {
   h2 {
     font-size: 40px;
   }
-  .innovation-camp1 {
-    float: none;
+
+  .inovation-image {
+    width: 45vw;
   }
-  .innovation-camp2 {
-    float: none;
-  } /*her skjedde det ingenting. bildene må stå hver for seg på mobilversjon*/
+  .box2 {
+    width: 100vw;
+    margin-left: 0;
+    border-radius: 0;
+  }
+
+  .box3 {
+    width: 100vw;
+    margin-left: 0;
+    margin-bottom: 50px;
+  }
 }
