@@ -224,12 +224,8 @@ label {
   margin-top: 2vh;
   text-align: center;
 }
-<<<<<<< HEAD
-.formselect {
-=======
 
-.formselect{
->>>>>>> 4a1a9595594c23202ebc7619cbabc28fcbea34fc
+.formselect {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -248,22 +244,22 @@ footer {
   background: linear-gradient(to right, #e0e0e0, #fcfcfc);
   margin-top: 4vh;
   display: flex;
-  
+
   position: relative;
 }
-footer input{
+
+footer input {
   width: 50%;
 }
-.newsletter{
+.newsletter {
   width: 50%;
   display: inline-block;
   text-align: center;
 }
-.contactinfo{
+.contactinfo {
   width: 50%;
   display: inline-block;
 }
-
 
 /* phone-view ------------------------------------------ */
 @media (orientation: portrait), (max-width: 660px) {
