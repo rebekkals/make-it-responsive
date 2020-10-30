@@ -9,17 +9,63 @@
     />
   </head>
 
-  <body>
+  <body id="hoveddel1">
     <header>
-      <h1>Inova</h1>
+      <h1> <img src="img/logo.png" alt="logo"> Inova</h1>
       <ul class="tabell">
-        <li><a href="">About us</a></li>
-        <li><a href="">Team Members</a></li>
-        <li><a href="">Schedule</a></li>
-        <li><a href="">Contact Information</a></li>
+        <li><a href="#hoveddel1">About us</a></li>
+        <li><a href="#our-team">Team Members</a></li>
+        <li><a href="#schedule1">Schedule</a></li>
+        <li><a href="#form">Contact Information</a></li>
       </ul>
     </header>
+    
+<!-- bilder på toppen ------------------------------------------->
+   <section> 
+      <div class="topping">
+        <img class="img1" src="https://images.unsplash.com/photo-1488229297570-58520851e868?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1649&q=80&fbclid=IwAR13fGu_6GZkQNAgabP10nWdXqkRjBI3YeW6swvj1dVqkk3x9qcQUuBGd7I"> 
+        <img class="img1" src="https://images.unsplash.com/photo-1576403103737-dc646cbf7de5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80&fbclid=IwAR2AVlVGRlrsQTT0Fdr5C-PexrNRCa61xaKl-Cy-o6cpK7KhSudTgUU84v8">
+        <img class="img1" src="https://images.unsplash.com/photo-1573757055995-0914193ce578?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80">
+        <img class="img2" src="https://images.unsplash.com/photo-1567177662154-dfeb4c93b6ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2800&q=80&fbclid=IwAR1bwOT9z3WOquwpyfvFrd9LzOrbiLIXHRBglZyG6_l3tboFFx86aolpnBo">
+          
+
+      </div>
+  </section>
     <section class="hoveddel">
+<!-- logobar / navbar mobil ------------------------------------->
+      <!-- Brukt på freaky friday av Tobias Fremming: -->
+      <nav class="topp">
+          <img src="img/logoinova.png" alt="logo">
+          <label for="toggle">&#9776;</label>
+          <input type="checkbox" id="toggle"/>
+          <div class="menu">
+            <a href="#hoveddel1">About us</a>
+            <a href="#our-team">Team Members</a>
+            <a href="#schedule1">Schedule</a>
+            <a href="#form">Contact Information</a>
+          </div> 
+      </nav>
+      <!-- //Brukt på freaky friday av Tobias Fremming -->
+
+
+<!-- Desctription ----------------------------------------->
+      <div class="box">
+        <h2>Innovation camps</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex quia sunt
+          suscipit, accusamus a debitis delectus ipsam, adipisci quam ab soluta
+          eos dolores voluptate et repellendus maxime. Ratione voluptatibus,
+          magnam vel aperiam illum placeat ipsum laborum voluptatem earum quas
+          ex hic ducimus ad rem. Qui esse excepturi nulla inventore doloremque
+          quaerat ratione ipsum vel adipisci! Ut ex exercitationem voluptas
+          facilis officiis. Similique atque recusandae, deleniti, in eius sunt
+          molestias voluptatibus tempore nisi molestiae totam quisquam
+          distinctio eum nobis corporis eos! Illo qui, aperiam ipsum deserunt
+          dolorum non officia hic esse aliquam quis labore porro incidunt
+          corporis accusamus, tempora illum eius!
+        </p>
+      </div>
+
       <div class="box">
         <h2>Who are we?</h2>
         <p>
@@ -36,7 +82,7 @@
           corporis accusamus, tempora illum eius!
         </p>
       </div>
-      <div class="box">
+      <div class="box" id="our-team">
         <h2>Our team</h2>
         <div class="person">
           <img
@@ -44,20 +90,23 @@
             src="https://images.unsplash.com/photo-1563241838-1734b7a0aba4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
           />
           <div class="person-text">
-            <h2>Sandeep</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
-              amet sit aut error non id.
+            <h2>PROF. Sandeep Singh</h2>
+            <p>Lector <br>
+            <a href="mailto:s.singh@inova.com?" target="_blank">e-mail: s.singh@inova.com</a> <br>
+            <a href="tel:+47-204-455-20">tlf: +47 204 45 520</a>
             </p>
+            
           </div>
         </div>
+
+<!-- Staff------------------------------------------------------->
         <div class="person person-right">
           <div class="person-text">
-            <h2>Gabriel</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
-              amet sit aut error non id.
-            </p>
+            <h2>Gabriel Johnsen</h2>
+            <p>Software Engineer <br>
+            <a href="G.Johnsen@inova.com?" target="_blank">e-mail: G.Johnsen@inova.com</a> <br>
+            <a href="tel:+47-951-222-19">tlf: +47 951 22 5219</a>
+          </p>
           </div>
           <img
             class="person-image"
@@ -67,22 +116,22 @@
         <div class="person">
           <img
             class="person-image"
-            src="https://images.unsplash.com/photo-1557153984-b968e8a9cb14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
+            src="https://images.unsplash.com/photo-1557153984-b968e8a9cb14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
           />
           <div class="person-text">
-            <h2>Jamal</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
-              amet sit aut error non id.
+            <h2>Jamal Jackson</h2>
+            <p>programmer <br>
+            <a href="Jamal.j@inova.com?" target="_blank">e-mail: Jamal.j@inova.com</a> <br>
+            <a href="tel:+47-956-455-19">tlf: +47 956 45 519</a>
             </p>
           </div>
         </div>
         <div class="person person-right">
           <div class="person-text">
-            <h2>Hanna</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
-              amet sit aut error non id.
+            <h2>Hanna Öland</h2>
+            <p>project leader <br>
+            <a href="Hanna.oeland.@inova.com?" target="_blank">e-mail: Hanna.oeland.@inova.com</a> <br>
+            <a href="tel:+47-392-293-19">tlf: +47 392 29 319</a>
             </p>
           </div>
           <img
@@ -96,17 +145,149 @@
             src="https://images.unsplash.com/photo-1560714759-60e6eb4e1db6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=989&q=80"
           />
           <div class="person-text">
-            <h2>Ralph</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
-              amet sit aut error non id.
+            <h2>Ralph Loremschtein</h2>
+            <p>human resources <br>
+            <a href="Ralph.@inova.com?" target="_blank">e-mail: Ralph.@inova.com</a> <br>
+            <a href="tel:+47-492-203-29">tlf: +47 492 20 329</a>
             </p>
           </div>
+
+        
         </div>
+
+      <div class="person person-right">
+        <div class="person-text">
+          <h2>IG-11</h2>
+          <p>secretary <br>
+          <a href="ig11.bountyhunter@inova.com?" target="_blank">e-mail: ig11.bountyhunter@inova.com</a> <br>
+          <a href="tel:+47-181-611-00">Tel: +47 181 611</a>
+          </p>
+        </div>
+        <img
+        class="person-image"
+        src="img/ig-11.png"  
+        />
+      </div>
+    </div>
+
+    <!-- Schedule ------------------------------------------------------>
+    <h2 class="schedule">Schedule</h2> 
+      <div class="box2" id="schedule1"> 
+          <div class="inovation-camp1">
+            <div class="inovation-image">
+              <div class="slider">
+                <div class="slider-text">
+                  ipsum dolor sit amet consectetur adipisicing elit. Unde, non?
+                </div>
+              </div>
+              <img
+                src="img/campus1.png"
+              />
+            </div>
+            <div class="campus date">
+              <h2>Burtington 30.01</h2>
+            </div>
+          </div>
+
+          <div class="inovation-camp2">
+            <div class="inovation-image">
+              <div class="slider">
+                <div class="slider-text">
+                  ipsum dolor sit amet consectetur adipisicing elit. Unde, non?
+                </div>
+              </div>
+              <img
+                  src="https://images.unsplash.com/photo-1586199566401-ca6b6658b0eb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+              />
+            </div>
+            <div class="campus date">
+              <h2>Hardavdeling 20.06</h2>
+            </div>
+          </div>
+        </div>
+
+      
+      <div class="box2"> 
+          <div class="inovation-camp1">
+            <div class="inovation-image">
+              <div class="slider">
+                <div class="slider-text">
+                  ipsum dolor sit amet consectetur adipisicing elit. Unde, non?
+                </div>
+              </div>
+              <img
+                  src="https://images.unsplash.com/photo-1599043464895-0e273f94eed7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
+              />
+            </div>
+            <div class="campus date">
+              <h2>Dragonoire 09.12</h2>
+            </div>
+          </div>
+
+          <div class="inovation-camp2">
+            <div class="inovation-image">
+              <div class="slider">
+                <div class="slider-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, non?
+                </div>
+              </div>
+              <img
+              src="https://images.unsplash.com/photo-1597225764524-beb6e071d9ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
+              />
+            </div>
+            <div class="campus date">
+              <h2>Bleep blop 03.04</h2>
+            </div>
+          </div>
+
+        
+      </div>
+    
+
+
+<!-- form ----------------------------------------------------------->
+      <div class="box" id="form">
+        <h1 id="form">Register your class now!</h1>
+        <form action="https://youtu.be/dQw4w9WgXcQ">
+          <div class="formselect">
+         <select name="" id="" required>
+            <option value="">-- Select Campus --</option>
+            <option value="">Burtington</option>
+            <option value="">Hardavdeling</option>
+            <option value="">Dragonoire</option>
+            <option value="">Bleep blop</option>
+          </select>
+        </div>
+          <br>
+          <input type="text" required placeholder="School">
+          <br>
+          <input type="text" required placeholder="Class">
+          <br>
+          <input type="text" required placeholder="Name of contact person">
+          <br>
+          <input type="text" required placeholder="E-mail">
+          
+          <br>
+          <input type="submit" value="Submit">
+
+        </form>
       </div>
     </section>
+<!-- footer -------------------------------------------------->
     <footer>
+      <div class="newsletter">
+      <h4>Register for our newsletter</h3>
+        <br>
+      <form action="https://youtu.be/989-7xsRLR4?t=47">
+        <input type="text" placeholder="E-mail">
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    <div class="contactinfo">
       <p>Copyrighted i gueeeeeeess</p>
+    </div>
     </footer>
   </body>
 </html>
+
+ 
