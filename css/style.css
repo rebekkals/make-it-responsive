@@ -299,7 +299,10 @@ footer input {
   display: inline-block;
 }
 
-
+.contactinfo a {
+  text-decoration: none;
+  color: black;
+}
 
 /* phone-view ------------------------------------------ */
 @media (orientation: portrait), (max-width: 660px) {
