@@ -3,6 +3,7 @@
 }
 h1 {
   padding: 20px;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -157,6 +158,7 @@ label {
 }
 footer {
   height: 15vh;
+}
 .person-text a {
   color: #000;
   text-decoration: none;
