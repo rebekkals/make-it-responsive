@@ -18,7 +18,7 @@ header {
   width: 100%;
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 20;
 }
 h1 img {
   padding-left: 30px;
@@ -71,6 +71,7 @@ h1 {
 
 /* logobar / navbar mobil ------------------------------------ */
 .topp {
+  z-index: 19;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -204,9 +205,6 @@ label {
   height: 100%;
 }
 
-/* .inovation-image:hover {
-  opacity: 0.6;
-} */
 .box2 {
   width: 80%;
   display: flex;
@@ -253,6 +251,7 @@ label {
   padding: 0;
 }
 .box input {
+  font-size: 20px;
   width: 50%;
   height: 5vh;
   margin-top: 2vh;
@@ -273,6 +272,7 @@ label {
 }
 /* footer --------------------------------------------------------------- */
 footer {
+  font-size: 20px;
   height: 15vh;
   background: linear-gradient(to right, #e0e0e0, #fcfcfc);
   margin-top: 4vh;
