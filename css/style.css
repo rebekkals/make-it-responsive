@@ -1,6 +1,8 @@
 * {
   margin: 0;
 }
+h1 {
+  padding: 20px;
 html {
   scroll-behavior: smooth;
 }
@@ -153,6 +155,8 @@ label {
   text-align: left;
   max-width: 200px;
 }
+footer {
+  height: 15vh;
 .person-text a {
   color: #000;
   text-decoration: none;
