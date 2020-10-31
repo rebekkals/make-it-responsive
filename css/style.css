@@ -47,7 +47,7 @@ h1 {
 }
 .img2 {
   height: 20.5vw;
-  width: 14.5vw;
+  width: 14vw;
 }
 
 .tabell {
@@ -167,7 +167,7 @@ footer {
 /* Schedule -------------------------------------------------*/
 .schedule {
   margin-top: 40px;
-  margin-left: 45%;
+  margin-left: 40%;
   font-size: 40px;
 }
 .inovation-image {
@@ -219,7 +219,7 @@ footer {
   background: linear-gradient(to right, #e0e0e0, #fcfcfc);
   color: black;
   border-radius: 10px;
-  box-shadow: 3px 5px #c2c2c2;
+  box-shadow: 0px 5px #c2c2c2;
   justify-content: center;
   text-align: center;
 }
@@ -278,8 +278,9 @@ footer {
 }
 /* footer --------------------------------------------------------------- */
 footer {
-  font-size: 20px;
-  height: 15vh;
+  font-size: 25px;
+  height: auto;
+  width: 100%;
   background: linear-gradient(to right, #e0e0e0, #fcfcfc);
   margin-top: 4vh;
   display: flex;
@@ -316,6 +317,7 @@ footer input {
   .topp {
     position: fixed;
     top: 0;
+    width: 100%;
     border-bottom: 5px solid rgb(0, 0, 0);
   }
   .topp img {
@@ -348,7 +350,8 @@ footer input {
     width: 45vw;
   }
   .box2 {
-    width: 100vw;
+    display: flex;
+    width: 99.5%;
     margin-left: 0;
     border-radius: 0;
   }
@@ -357,5 +360,19 @@ footer input {
     width: 100vw;
     margin-left: 0;
     margin-bottom: 50px;
+  }
+}
+@media (max-width: 400px) {
+  .slider-text {
+    font-size: 15px;
+  }
+  .person-text p {
+    font-size: 13px;
+  }
+  .person-text h2 {
+    font-size: 16px;
+  }
+  .person-text a {
+    font-size: 14px;
   }
 }
