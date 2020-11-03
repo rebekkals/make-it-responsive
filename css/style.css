@@ -134,6 +134,7 @@ label {
   margin-top: 30px;
   border-radius: 5px;
   box-shadow: 3px 5px #c2c2c2;
+  font-size: 1.5rem;
 }
 
 /* Staff -------------------------------------------------------------- */
@@ -156,6 +157,7 @@ label {
   padding-left: 15px;
   text-align: left;
   max-width: 200px;
+  font-size: 2rem;
 }
 footer {
   height: 15vh;
@@ -163,6 +165,7 @@ footer {
 .person-text a {
   color: #000;
   text-decoration: none;
+  font-size: 2rem;
 }
 
 /* Schedule -------------------------------------------------*/
@@ -285,6 +288,8 @@ footer {
   background: linear-gradient(to right, #e0e0e0, #fcfcfc);
   margin-top: 4vh;
   display: flex;
+  padding-top: 50px;
+  padding-bottom: 70px;
 
   position: relative;
 }
@@ -363,15 +368,15 @@ footer input {
     margin-bottom: 50px;
   }
   .slider-text {
-    font-size: 15px;
+    font-size: 2rem;
   }
   .person-text p {
-    font-size: 15px;
+    font-size: 2rem;
   }
   .person-text h2 {
-    font-size: 20px;
+    font-size: 2rem;
   }
   .person-text a {
-    font-size: 15px;
+    font-size: 2rem;
   }
 }
