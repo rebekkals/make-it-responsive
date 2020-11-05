@@ -334,7 +334,7 @@ footer input {
     width: 50vw;
   }
   label {
-    display: block;
+    display: none;
   }
   .topping {
     margin-top: 20vw;
