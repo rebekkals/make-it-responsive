@@ -26,8 +26,8 @@ header {
 }
 h1 img {
   padding-left: 30px;
-  width: 40px;
-  height: 40px;
+  width: 5vw;
+  height: 5vw;
 }
 h1 {
   display: flex;
@@ -164,7 +164,7 @@ label {
 .person-text a {
   color: #000;
   text-decoration: none;
-  font-size: 3vw;
+  font-size: 2vw;
 }
 
 /* Schedule -------------------------------------------------*/
@@ -311,6 +311,11 @@ footer input {
 .contactinfo a {
   text-decoration: none;
   color: black;
+}
+@media (orientation: portrait), (max-width: 800px){
+  .topping{
+    display: none;
+  }
 }
 
 /* phone-view ------------------------------------------ */
