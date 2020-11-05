@@ -159,9 +159,7 @@ label {
   max-width: 200px;
   font-size: 2rem;
 }
-footer {
-  height: 15vh;
-}
+
 .person-text a {
   color: #000;
   text-decoration: none;
@@ -371,12 +369,25 @@ footer input {
     font-size: 2rem;
   }
   .person-text p {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .person-text h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .person-text a {
-    font-size: 2rem;
+    font-size: 1.5rem;
+  }
+  .person {
+    display: block;
+  }
+  .person.person-right {
+    justify-content: none;
+    text-align: center !important;
+  }
+  .person-text {
+    padding-top: 5px;
+    padding-left: 15px;
+    text-align: center;
+    max-width: 60%;
   }
 }
