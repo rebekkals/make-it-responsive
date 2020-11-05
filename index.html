@@ -260,7 +260,7 @@
         <form action="https://youtu.be/dQw4w9WgXcQ">
           <!-- videoen er fra youtube.com. linken står rett over -->
           <div class="formselect">
-         <select name="" id="" required aria-label="Select campus">
+         <label for="select">Select campus</label><select name="" id="" required aria-label="Select campus" id="select">
             <option value="">-- Select Campus --</option>
             <option value="">Burtington</option>
             <option value="">Hardavdeling</option>
@@ -269,16 +269,15 @@
           </select>
         </div>
           <br>
-          <input type="text" required placeholder="School">
+          <label for="school">Attendants' school</label><input type="text" required placeholder="School" id="school">
           <br>
-          <input type="text" required placeholder="Class">
+          <label for="class">Attendants' class</label><input type="text" required placeholder="Class" id="class">
           <br>
-          <input type="text" required placeholder="Contact person">
+          <label for="name">Contact person</label><input type="text" required placeholder="Contact person" id="name">
           <br>
-          <input type="text" required placeholder="E-mail">
-          
+          <label for="mail">E-mail of contact person</label><input type="text" required placeholder="E-mail" id="mail">
           <br>
-          <input type="submit" value="Submit">
+          <label for="submit">Submit form</label><input type="submit" value="Submit" id="submit">
           
         </form>
       </div>
