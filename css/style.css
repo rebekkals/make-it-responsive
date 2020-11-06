@@ -231,7 +231,6 @@ label {
   font-size: 3vw;
 }
 
-
 .box3 {
   width: 80%;
   display: flex;
@@ -312,8 +311,8 @@ footer input {
   text-decoration: none;
   color: black;
 }
-@media (orientation: portrait), (max-width: 800px){
-  .topping{
+@media (orientation: portrait), (max-width: 800px) {
+  .topping {
     display: none;
   }
 }
@@ -339,7 +338,7 @@ footer input {
     width: 50vw;
   }
   label {
-    display: none;
+    display: block;
   }
   .topping {
     margin-top: 20vw;
@@ -386,5 +385,4 @@ footer input {
   .person-text a {
     font-size: 3vw;
   }
-  
 }
