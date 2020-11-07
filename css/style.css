@@ -172,6 +172,7 @@ label {
 .schedule {
   text-align: center;
   font-size: 5vw;
+  margin-top: 3vh;
 }
 
 .inovation-image {
@@ -341,7 +342,7 @@ footer input {
   label {
     display: block;
   }
-  .form label, .newsletter label{
+  #form label, .newsletter label{
     display: none;
   }
   .topping {
